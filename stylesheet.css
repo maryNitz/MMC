@@ -1,0 +1,75 @@
+h1 {
+    opacity:1;
+    color:#413D4B;
+    font-family:font-family: 'Playfair Display', serif;
+    font-size:22px;
+    font-weight: bold;
+    text-align:center;
+}
+
+h2 {
+    opacity:1;
+    color:#413D4B;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    text-align:center;
+}
+
+div {
+    opacity:0.7490196078431373;
+    color:#333333;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    text-align:center;
+}
+
+p {
+    opacity:0.7490196078431373;
+    color:#2F2D35;
+    font-family:PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size:14px;
+    text-align:center;
+}
+
+hr {
+    opacity:0.30196078431372547;
+    background-color:#413D4B;
+    width: 51px;
+}
+
+img {
+    align-items: center;
+}
+
+.expertise-container{
+    display: flex;
+    align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-right: 100px;
+    
+}
+
+.testitem {
+    width: 224px;
+    height: 145px;
+    margin: 10px;
+    border: 3px;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-right: 100px;
+}
+
+#team{
+    background: url(assets\bgk-header.png);
+}
