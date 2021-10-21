@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+}
+.headline{
+    color: #403E4B;
+    margin-left: 50px;
+}
+.picture{
+    justify-content: flex-start;
+}
+.learn-more{
+     color: #97E9E3;
+     border:thin solid #97E9E3;
+     background:transparent;
+
+}
+.background.picture{
+    background-image:url("bgk-middle.png"); 
+    
+}
