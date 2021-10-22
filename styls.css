@@ -1,0 +1,129 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+section{
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+
+  }
+
+li{
+    list-style-type: none;
+}
+
+h1 h3{
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.learn-more{ /*button*/
+    position: relative;
+    margin: 75px;
+    padding: 7px 75px;
+    width: 15px;
+    background: transparent;
+    color: #00e0d0;
+    border: thin solid #00e0d0;
+    cursor: pointer;
+}
+button:hover{
+    outline: none;
+    background: #00e0d0;
+    color: #2c264a;
+}
+
+hr{
+    width: 75px;
+    height: 1px;
+    background: #00e0d0;
+    border: 0px;
+    margin: 0 auto 125px auto;
+  }
+
+/* HEADER ....................................................................*/
+header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 175px;
+    float: left;
+    margin: 10px 0 0 5px;
+  }
+
+h2{
+    color: #00e0d0;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+
+/* NAV .......................................................................
+header{
+    background: #fff;
+}*/
+
+header nav{
+    float: left;
+    margin: 10px 50px 0 0; /* im Uhrzeigersinn*/
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 25px;
+  }
+
+header nav ul li a{
+    font-size: 12px;
+  }
+  
+  header nav ul li:hover{
+    padding-top: 5px;
+    color: #00e0d0;
+  }
+
+
+/* HOME ......................................................................*/
+#home{
+    background: url(./img/bgk-header.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home h1{
+    color: #fff;
+}
+
+#home p{
+    width: 700px;
+    margin: auto;
+    color: #fff;
+}
+
+/* CONTACT ......................................................................*/
+input, textarea{
+    width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
