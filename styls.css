@@ -127,3 +127,6 @@ input, textarea{
   margin-bottom: 16px;
   resize: vertical;
 }
+.test{
+    color:red;
+}
